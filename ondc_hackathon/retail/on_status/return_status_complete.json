@@ -46,11 +46,13 @@
                 "email": "customer@mail.com"
             },
             "fulfillment": {
-                "type": "home_delivery",
+                "type": "HOME-DELIVERY",
+                "tracking": true,
                 "provider_id": "dunzo",
                 "state": {
                     "descriptor": {
-                        "name": "Package delivered"
+                        "name": "Package delivered",
+                        "code": "COMPLETED"
                     }
                 },
                 "start": {

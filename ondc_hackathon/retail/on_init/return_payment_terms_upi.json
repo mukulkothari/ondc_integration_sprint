@@ -81,8 +81,8 @@
                 "email": "customer@mail.com"
             },
             "fulfillment": {
-                "type": "store-pickup",
-                "tracking": false,
+                "type": "HOME-DELIVERY",
+                "tracking": true,
                 "start": {
                     "location": {
                         "id": "el",

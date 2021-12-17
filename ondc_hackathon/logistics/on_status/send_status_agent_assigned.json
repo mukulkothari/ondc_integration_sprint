@@ -16,7 +16,7 @@
     "message": {
         "order": {
             "id": "ORDER1",
-            "state": "Agent assigned",
+            "state": "ASSIGNED-AGENT",
             "provider": {
                 "id": "fast-logistics"
             },
@@ -45,8 +45,8 @@
                 "updated_at": "2021-06-15T07:08:36.211Z"
             },
             "fulfillment": {
-                "type": "home-delivery",
-                "tracking": false,
+                "type": "HOME-DELIVERY",
+                "tracking": true,
                 "start": {
                     "location": {
                         "gps": "12.9349377,77.6055586"
