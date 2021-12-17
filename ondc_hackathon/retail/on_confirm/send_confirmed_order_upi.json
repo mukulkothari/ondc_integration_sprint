@@ -46,11 +46,12 @@
                 "email": "customer@mail.com"
             },
             "fulfillment": {
-                "type": "home_delivery",
+                "type": "HOME-DELIVERY",
                 "provider_id": "dunzo",
                 "state": {
                     "descriptor": {
-                        "name": "Searching for agents"
+                        "name": "Searching for agents",
+                        "code": "SEARCHING-FOR-FMD-AGENT"
                     }
                 },
                 "start": {

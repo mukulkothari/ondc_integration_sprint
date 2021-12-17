@@ -46,11 +46,12 @@
                 "email": "customer@mail.com"
             },
             "fulfillment": {
-                "type": "home_delivery",
+                "type": "HOME-DELIVERY",
                 "provider_id": "dunzo",
                 "state": {
                     "descriptor": {
-                        "name": "Agent assigned"
+                        "name": "Agent assigned",
+                        "code": "ASSIGNED-AGENT"
                     }
                 },
                 "start": {
